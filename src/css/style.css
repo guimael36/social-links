@@ -1,0 +1,93 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--Off-Black);
+
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: var(--Dark-Grey);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35rem;
+    height: 50rem;
+    border-radius: 1.5rem;
+}
+
+.container img {
+    width: 100%;
+    border-radius: 20rem;
+    width: 9.6rem;
+    height: 9.6rem;
+    margin-top: 0.3rem;
+}
+
+.container h1 {
+    color: var(--White);
+    font-size: 2.5rem;
+    margin-top: 1.5rem;
+    font-weight: 700;
+}
+
+.container h3 {
+    color: var(--Green);
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    font-weight: 600;
+}
+
+.container p {
+    color: var(--White);
+    margin-top: 1.5rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+    width: 28rem;
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.social a {
+    text-decoration: none;
+    color: var(--White);
+    text-align: center;
+    transition: 0.3s;
+    font-weight: 600;
+}
+
+.social button {
+    border-radius: 0.5rem;
+    border-style: none;
+    width: 28rem;
+    height: 3.5rem;
+    background-color: var(--Grey);
+    margin: 0.6rem;
+}
+
+.social button:hover {
+    background-color: var(--Green);
+}
+
+.social a:hover {
+    color: var(--Off-Black);
+    width: 28rem;
+    height: 3.5rem;
+}
